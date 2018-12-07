@@ -2,8 +2,8 @@
 ![retinanet](asserts/retinanet.png)
 
 #### optional backbone:
-- se_resnext50_32x4d
-- se_resnext101_32x4d
+- [se_resnext50_32x4d](http://data.lip6.fr/cadene/pretrainedmodels/se_resnext50_32x4d-a260b3a4.pth)
+- [se_resnext101_32x4d](http://data.lip6.fr/cadene/pretrainedmodels/se_resnext101_32x4d-3b2fe3d8.pth)
 
 #### usage:
 `setup.sh`: compile cython code
