@@ -24,7 +24,7 @@ def parse_args(args=None):
     parser.add_argument('--fold', required=True, choices=[1, 2, 3, 4, 5], type=int, help="Directory containing the dataset")
     parser.add_argument('--learning_rate', default=1e-5, type=float, help="learning rate of optimizer")
     parser.add_argument('--num_epochs', default=30, type=int, help="total epochs to train")
-    parser.add_argument('--frozen_epochs', default=15, type=int, help="the first epoches to fix parameter of backbone")
+    parser.add_argument('--frozen_epochs', default=20, type=int, help="the first epoches to fix parameter of backbone")
     parser.add_argument('--save_dir', default='checkpoints', type=str, help="Directory containing params.json")
     parser.add_argument('--checkpoint2load', default=None, type=str, help="checkpoint to load")  # 'best' or 'train'
     parser.add_argument('--optim_restore', default=True, type=bool, help="whether to restore optimizer parameter")
