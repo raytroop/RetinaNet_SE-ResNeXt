@@ -1,0 +1,10 @@
+torchvision==0.2.1
+setuptools==39.1.0
+torch==0.4.1
+Cython==0.29
+pydicom==1.2.0
+opencv_python==3.4.3.18
+matplotlib==2.2.3
+albumentations==0.1.7
+numpy==1.15.2
+tqdm==4.26.0
