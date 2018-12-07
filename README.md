@@ -6,11 +6,11 @@
 - [se_resnext101_32x4d](http://data.lip6.fr/cadene/pretrainedmodels/se_resnext101_32x4d-3b2fe3d8.pth)
 
 #### usage:
-`setup.sh`: compile cython code
-`config.json`: config file
-`train.py`: main train script
-`dataGen/data_loader.py`:  Subclass `torch.utils.data.Dataset` or modify `class RsnaDataset` for your owen dataset.
-`prepare_data.ipynb`: data processing script for *RSNA Pneumonia Detection Challenge*
+`setup.sh`: compile cython code<br>
+`config.json`: config file<br>
+`train.py`: main train script<br>
+`dataGen/data_loader.py`:  Subclass `torch.utils.data.Dataset` or modify `class RsnaDataset` for your owen dataset.<br>
+`prepare_data.ipynb`: data processing script for *RSNA Pneumonia Detection Challenge*<br>
 `demo.ipynb`: sample code showing how to predict with `model.predict` method
 
 ---
