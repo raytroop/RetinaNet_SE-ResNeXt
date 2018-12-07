@@ -9,7 +9,7 @@
 `setup.sh`: compile cython code<br>
 `config.json`: config file<br>
 `train.py`: main train script<br>
-`dataGen/data_loader.py`:  Subclass **torch.utils.data.Dataset** or modify *class RsnaDataset* for your owen dataset.<br>
+`dataGen/data_loader.py`:  Subclass **torch.utils.data.Dataset** or modify **class RsnaDataset** for your owen dataset.<br>
 `prepare_data.ipynb`: data processing script for **RSNA Pneumonia Detection Challenge**<br>
 `demo.ipynb`: sample code showing how to predict with **model.predict** method
 
